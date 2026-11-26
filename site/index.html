@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Propuesta de transformación digital de The Bank presentada por su equipo de arquitectura.">
+  <meta name="theme-color" content="#f2f6fb">
+  <title>Transformación digital | The Bank</title>
+  <link rel="stylesheet" href="estilos.css?v=reloj-1">
+  <link rel="stylesheet" href="junta.css?v=reloj-1">
+  <script src="contenido.js" defer></script>
+  <script src="mapa-arquitectura.js" defer></script>
+  <script src="relato.js?v=logo-2" defer></script>
+  <script src="hojas-de-ruta.js" defer></script>
+  <script src="figuras-informe.js" defer></script>
+  <script src="presentacion.js?v=reloj-1" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#decision" aria-label="The Bank, inicio">
+      <svg class="brand-mark" width="34" height="34" viewBox="108 205 470 470" overflow="hidden" aria-hidden="true">
+        <image href="identidad/the-bank.jpg" width="687" height="1024"/>
+      </svg>
+      The Bank
+    </a>
+    <div id="deck-clock" class="deck-clock" role="group" aria-label="Cronómetro de diez minutos">
+      <div class="deck-readings">
+        <span>Transcurrido <strong id="deck-elapsed">0:00</strong></span>
+        <span id="deck-remaining-label">Restante <strong id="deck-remaining">10:00</strong></span>
+      </div>
+      <progress id="deck-progress" max="600" value="0" aria-label="Progreso de la exposición"></progress>
+    </div>
+    <div class="top-actions">
+      <button id="present-button" class="presentation-toggle" type="button" aria-pressed="false" aria-keyshortcuts="P">Presentar</button>
+      <button id="notes-button" type="button" aria-keyshortcuts="N">Notas</button>
+      <button id="fullscreen-button" class="icon-button" type="button" aria-label="Pantalla completa" title="Pantalla completa (F)">
+        <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg>
+      </button>
+      <a class="question-link" href="#respaldo" aria-keyshortcuts="B">Preguntas <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="stage" tabindex="-1"></main>
+  <footer class="toolbar">
+    <nav id="chapters" class="chapters" aria-label="Temas de la exposición"></nav>
+    <div class="stepper" aria-label="Navegación de diapositivas">
+      <button id="previous" type="button" aria-label="Anterior" title="Anterior (flecha izquierda)">←</button>
+      <span id="slide-count" aria-live="polite"></span>
+      <button id="next" type="button" aria-label="Siguiente" title="Siguiente (flecha derecha)">→</button>
+    </div>
+  </footer>
+  <dialog id="notes-dialog" aria-labelledby="notes-title">
+    <div class="dialog-head"><h2 id="notes-title">Notas de presentación</h2><form method="dialog"><button aria-label="Cerrar notas">×</button></form></div>
+    <div id="notes-content"></div>
+    <p class="shortcuts"><kbd>←</kbd> <kbd>→</kbd> Navegar · <kbd>B</kbd> Preguntas · <kbd>N</kbd> Notas · <kbd>P</kbd> Presentar · <kbd>F</kbd> Pantalla completa</p>
+  </dialog>
+  <noscript>Activa JavaScript para navegar la presentación.</noscript>
+</body>
+</html>

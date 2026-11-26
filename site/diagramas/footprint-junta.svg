@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="systems-svg" viewBox="0 0 1204 333" role="img" aria-labelledby="arch-asis-title arch-asis-desc">
+        <title id="arch-asis-title">Footprint actual de originación</title><desc id="arch-asis-desc">Aliados y Datacrédito alimentan la validación de riesgo. El CRM registra aceptados y el estudio recibe listados. Los sistemas de producto abren y se solicita el realce antes de la aceptación. Los soportes se digitalizan por intermedio de Comercial.</desc>
+        <style>
+.architecture-board { padding-block:18px; }
+.architecture-board h1 { max-width:none; font-size:clamp(34px,3.75cqw,55px); margin-bottom:10px; text-wrap:pretty; }
+.architecture-board .trace-tabs { margin:7px 0 5px; }
+.trace-tab-label { align-self:center; margin-right:4px; color:var(--bank-blue); font:750 12px/1.2 Arial, Helvetica, sans-serif; }
+.systems-map { border:1px solid #b7c8dc; background:#fffdf6; border-radius:7px; }
+.systems-scroll { overflow:auto; border-radius:inherit; }
+.systems-svg { display:block; width:100%; height:auto; max-height:310px; font-family:Arial, Helvetica, sans-serif; }
+.map-bank { fill:#ebf2f9; stroke:#b7c8dc; stroke-width:1.2; }
+.map-external { fill:#f6f2e9; stroke:#b7afa0; stroke-width:1.2; stroke-dasharray:4 3; }
+.map-region-label { font-size:8.5px; letter-spacing:.11em; font-weight:760; fill:#435a73; }
+.map-edge path { stroke:#5b7794; fill:none; stroke-width:1.6; }
+.map-edge text { fill:#435b76; font-size:11px; font-weight:660; paint-order:stroke; stroke:#fffdf6; stroke-width:2.6px; stroke-linejoin:round; }
+.map-edge.gap path { stroke:#a8333a; stroke-width:2.05; stroke-dasharray:5 2; }
+.map-edge.gap text { fill:#912b34; font-weight:770; }
+.map-edge.improve path { stroke:#3b6c9a; stroke-width:2.15; }
+.map-edge.improve text { fill:#1f4e7b; font-weight:770; }
+.map-edge.highlight path { stroke-width:3.2; }
+.map-edge.highlight text { fill:#183c65; font-weight:825; }
+.map-arrow { fill:#5b7794; }
+.map-arrow.gap { fill:#a8333a; }
+.map-arrow.improve { fill:#3b6c9a; }
+.map-node-box { fill:#ffffff; stroke:#acbfd1; stroke-width:1.15; }
+.map-icon-disc { fill:#dce8f4; }
+.map-icon { fill:none; stroke:#365e86; stroke-width:1.65; stroke-linecap:round; stroke-linejoin:round; }
+.map-kind { fill:#48607b; font-size:9.3px; font-weight:760; }
+.map-title { fill:#193450; font-size:13.5px; font-weight:790; }
+.map-note { fill:#415971; font-size:10.4px; }
+.map-node.gap .map-node-box { fill:#fff1ed; stroke:#b34a50; stroke-width:1.8; }
+.map-node.gap .map-icon-disc { fill:#f1d7d6; }
+.map-node.gap .map-icon,.map-node.gap .map-kind { stroke:#98313b; }
+.map-node.gap .map-kind { stroke:none; fill:#98313b; }
+.map-node.new .map-node-box { fill:#edf4fb; stroke:#84a5c6; }
+.map-node.highlight .map-node-box { fill:#f6e9bd; stroke:#3b6c9a; stroke-width:2.5; }
+.map-node.highlight .map-icon-disc { fill:#f0dfab; }
+</style><rect width="1204" height="333" fill="#fffdf6"/><defs><marker id="arch-asis-normal" orient="auto" markerWidth="7" markerHeight="7" refX="6" refY="3.5" markerUnits="userSpaceOnUse"><path class="map-arrow normal" d="M0 0 7 3.5 0 7Z"/></marker><marker id="arch-asis-gap" orient="auto" markerWidth="7" markerHeight="7" refX="6" refY="3.5" markerUnits="userSpaceOnUse"><path class="map-arrow gap" d="M0 0 7 3.5 0 7Z"/></marker><marker id="arch-asis-improve" orient="auto" markerWidth="7" markerHeight="7" refX="6" refY="3.5" markerUnits="userSpaceOnUse"><path class="map-arrow improve" d="M0 0 7 3.5 0 7Z"/></marker></defs>
+        <path class="map-bank" d="M9 109H727V328H9Z"/>
+        <rect class="map-external" x="728" y="109" width="468" height="100"/>
+        <text class="map-region-label" x="20" y="121">THE BANK</text>
+        <text class="map-region-label" x="1186" y="121" text-anchor="end">FUERA DEL BANCO</text>
+        <g class="map-edge gap" data-map-focus="">
+            <path d="M110 74V134" marker-end="url(#arch-asis-gap)"/>
+            <text x="127" y="94" text-anchor="start">Archivos por lote</text>
+          </g><g class="map-edge gap" data-map-focus="">
+            <path d="M280 74V101H187V134" marker-end="url(#arch-asis-gap)"/>
+            <text x="302" y="98" text-anchor="start">Reuso hasta 90 días</text>
+          </g><g class="map-edge normal" data-map-focus="">
+            <path d="M228 168H260" marker-end="url(#arch-asis-normal)"/>
+            <text x="244" y="127" text-anchor="middle">Entrega listado</text>
+          </g><g class="map-edge normal" data-map-focus="">
+            <path d="M466 168H498" marker-end="url(#arch-asis-normal)"/>
+            <text x="482" y="127" text-anchor="middle">Deriva a apertura</text>
+          </g><g class="map-edge gap" data-map-focus="">
+            <path d="M704 168H736" marker-end="url(#arch-asis-gap)"/>
+            <text x="720" y="127" text-anchor="middle">Solicita realce</text>
+          </g><g class="map-edge gap" data-map-focus="">
+            <path d="M942 168H974" marker-end="url(#arch-asis-gap)"/>
+            <text x="958" y="127" text-anchor="middle">Gestiona entrega</text>
+          </g><g class="map-edge normal" data-map-focus="">
+            <path d="M115 197V256" marker-end="url(#arch-asis-normal)"/>
+            <text x="136" y="230" text-anchor="start">Registra aceptados</text>
+          </g><g class="map-edge normal" data-map-focus="">
+            <path d="M1053 197V286H704" marker-end="url(#arch-asis-normal)"/>
+            <text x="852" y="274" text-anchor="start">Soportes vía Comercial</text>
+          </g>
+        <g class="map-node " data-trace-node="allies" transform="translate(22 11)">
+          <rect class="map-node-box" width="206" height="63" rx="6"/>
+          <circle class="map-icon-disc" cx="23" cy="34" r="15"/>
+          <g class="map-icon" transform="translate(13 24) scale(.83)"><path d="M5 7H3v14h13v-2M8 3h9l4 4v11H8zM17 3v5h4M11 11h7m-7 3h7"/></g>
+          <text class="map-kind" x="45" y="16">Actor externo</text>
+          <text class="map-title" x="45" y="36">Aliados comerciales</text>
+          <text class="map-note" x="45" y="52">Cuatro archivos cada semana</text>
+        </g><g class="map-node " data-trace-node="bureau" transform="translate(260 11)">
+          <rect class="map-node-box" width="206" height="63" rx="6"/>
+          <circle class="map-icon-disc" cx="23" cy="34" r="15"/>
+          <g class="map-icon" transform="translate(13 24) scale(.83)"><ellipse cx="12" cy="5" rx="7" ry="3"/><path d="M5 5v14c0 4 14 4 14 0V5M5 12c0 4 14 4 14 0"/></g>
+          <text class="map-kind" x="45" y="16">Servicio externo</text>
+          <text class="map-title" x="45" y="36">Datacrédito</text>
+          <text class="map-note" x="45" y="52">Calificación del buró</text>
+        </g><g class="map-node " data-trace-node="risk" transform="translate(22 134)">
+          <rect class="map-node-box" width="206" height="63" rx="6"/>
+          <circle class="map-icon-disc" cx="23" cy="34" r="15"/>
+          <g class="map-icon" transform="translate(13 24) scale(.83)"><path d="m12 3 7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"/><path d="m9 12 2 2 4-5"/></g>
+          <text class="map-kind" x="45" y="16">Función de negocio</text>
+          <text class="map-title" x="45" y="36">Validación de riesgo</text>
+          <text class="map-note" x="45" y="52">Segmenta y aplica reglas</text>
+        </g><g class="map-node " data-trace-node="credit" transform="translate(260 134)">
+          <rect class="map-node-box" width="206" height="63" rx="6"/>
+          <circle class="map-icon-disc" cx="23" cy="34" r="15"/>
+          <g class="map-icon" transform="translate(13 24) scale(.83)"><path d="M7 3h7l4 4v14H7zM14 3v5h4M10 12h5m-5 4h5"/></g>
+          <text class="map-kind" x="45" y="16">Función de negocio</text>
+          <text class="map-title" x="45" y="36">Estudio de crédito</text>
+          <text class="map-note" x="45" y="52">Preaprobación y excepciones</text>
+        </g><g class="map-node " data-trace-node="product" transform="translate(498 134)">
+          <rect class="map-node-box" width="206" height="63" rx="6"/>
+          <circle class="map-icon-disc" cx="23" cy="34" r="15"/>
+          <g class="map-icon" transform="translate(13 24) scale(.83)"><rect x="4" y="4" width="16" height="7" rx="1"/><rect x="4" y="13" width="16" height="7" rx="1"/><path d="M7 7.5h1m-1 9h1"/></g>
+          <text class="map-kind" x="45" y="16">Aplicación existente</text>
+          <text class="map-title" x="45" y="36">Sistemas de producto</text>
+          <text class="map-note" x="45" y="52">Tarjetas, crédito y ahorros</text>
+        </g><g class="map-node gap" data-trace-node="issue" transform="translate(736 134)">
+          <rect class="map-node-box" width="206" height="63" rx="6"/>
+          <circle class="map-icon-disc" cx="23" cy="34" r="15"/>
+          <g class="map-icon" transform="translate(13 24) scale(.83)"><rect x="2.5" y="5.5" width="19" height="13" rx="2"/><path d="M3 10h18M6 15h4"/></g>
+          <text class="map-kind" x="45" y="16">Terceros</text>
+          <text class="map-title" x="45" y="36">Realce y entrega</text>
+          <text class="map-note" x="45" y="52">Fabricación y transporte</text>
+        </g><g class="map-node " data-trace-node="customer" transform="translate(974 134)">
+          <rect class="map-node-box" width="206" height="63" rx="6"/>
+          <circle class="map-icon-disc" cx="23" cy="34" r="15"/>
+          <g class="map-icon" transform="translate(13 24) scale(.83)"><circle cx="12" cy="7" r="3"/><path d="M5 21v-3a7 7 0 0 1 14 0v3"/></g>
+          <text class="map-kind" x="45" y="16">Actor externo</text>
+          <text class="map-title" x="45" y="36">Cliente</text>
+          <text class="map-note" x="45" y="52">Acepta o rechaza la oferta</text>
+        </g><g class="map-node " data-trace-node="crm" transform="translate(22 256)">
+          <rect class="map-node-box" width="206" height="63" rx="6"/>
+          <circle class="map-icon-disc" cx="23" cy="34" r="15"/>
+          <g class="map-icon" transform="translate(13 24) scale(.83)"><rect x="4" y="3" width="16" height="18" rx="2"/><circle cx="12" cy="9" r="2"/><path d="M8 16a4 4 0 0 1 8 0"/></g>
+          <text class="map-kind" x="45" y="16">Aplicación existente</text>
+          <text class="map-title" x="45" y="36">CRM</text>
+          <text class="map-note" x="45" y="52">Registra a los aceptados</text>
+        </g><g class="map-node " data-trace-node="docs" transform="translate(498 256)">
+          <rect class="map-node-box" width="206" height="63" rx="6"/>
+          <circle class="map-icon-disc" cx="23" cy="34" r="15"/>
+          <g class="map-icon" transform="translate(13 24) scale(.83)"><path d="M3 8V5h7l2 3h9v12H3zM3 11h18"/></g>
+          <text class="map-kind" x="45" y="16">Aplicación existente</text>
+          <text class="map-title" x="45" y="36">Gestión documental</text>
+          <text class="map-note" x="45" y="52">Custodia soportes digitalizados</text>
+        </g>
+      </svg>

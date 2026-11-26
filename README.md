@@ -2,7 +2,7 @@
 
 Proyecto del Grupo 04 de Arquitectura Empresarial de la Universidad de los Andes. El equipo representa al área interna de arquitectura y presenta una decisión de inversión ante la Junta.
 
-[Descargar la presentación web](./The-Bank-Junta-web.zip)
+[Código fuente del sitio](./site/) · [Diagramas editables de draw.io](./drawio/) · [Descargar la versión aprobada](./The-Bank-Junta-web.zip)
 
 ## Decisión que defendemos
 
@@ -27,9 +27,9 @@ Las cifras corresponden al caso académico y al Business Case V3. Los ahorros so
 
 ## Cómo abrirla y editarla
 
-Descomprime el ZIP y abre `index.html` en el navegador. La presentación funciona sin conexión. **Presentar** activa la vista 16:9 y el cronómetro. Las flechas cambian de pantalla, **B** abre Preguntas y **N** abre las notas.
+Abre [`site/index.html`](./site/index.html) en el navegador desde una copia local del repositorio. La presentación funciona sin conexión. **Presentar** activa la vista 16:9 y el cronómetro. Las flechas cambian de pantalla, **B** abre Preguntas y **N** abre las notas.
 
-| Archivo en el ZIP | Cuándo editarlo |
+| Archivo dentro de `site/` | Cuándo editarlo |
 | --- | --- |
 | `index.html` | Encabezado, controles visibles y carga de archivos. |
 | `relato.js` | Texto, tiempos y composición de las ocho pantallas principales. |
@@ -40,6 +40,6 @@ Descomprime el ZIP y abre `index.html` en el navegador. La presentación funcion
 | `junta.css` y `estilos.css` | Paleta, presentación, responsividad y estilos del respaldo. |
 | `presentacion.js` | Navegación, interacciones y cronómetro. |
 
-Antes de cambiar un dato o diagrama, consulta el informe, EA-Xpress y el Business Case V3 de la entrega del Grupo 04. Las secciones **5.1–5.3** y **6.6–6.10** del informe sustentan las vistas de arquitectura. La **8.8** sustenta los escenarios de inversión y la **9** contiene el cronograma y las entregas semestrales. En la entrega de trabajo se conservaron los originales editables de draw.io.
+Antes de cambiar un dato o diagrama, consulta el informe, EA-Xpress y el Business Case V3 de la entrega del Grupo 04. Las secciones **5.1–5.3** y **6.6–6.10** del informe sustentan las vistas de arquitectura. La **8.8** sustenta los escenarios de inversión y la **9** contiene el cronograma y las entregas semestrales. Los originales editables están en [`drawio/`](./drawio/). Si cambias un diagrama de aplicaciones, revisa su versión interactiva en `site/mapa-arquitectura.js` y actualiza el SVG correspondiente en `site/diagramas/`.
 
-Para actualizar la publicación, revisa la navegación, los dos estados de arquitectura y el modo **Presentar**. Empaqueta los archivos con `index.html` en la raíz del ZIP junto con las carpetas de recursos.
+Para actualizar la publicación, revisa la navegación, los dos estados de arquitectura y el modo **Presentar**. Empaqueta el contenido de `site/` con `index.html` en la raíz del ZIP junto con las carpetas de recursos. El ZIP del repositorio corresponde a la versión aprobada del 25 de noviembre de 2026.
